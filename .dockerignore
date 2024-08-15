@@ -1,0 +1,17 @@
+# Exclude node_modules directory
+node_modules
+
+# Exclude logs and debug files
+*.log
+npm-debug.log
+
+# Exclude Git repository and Docker files
+.git
+.gitignore
+Dockerfile
+.dockerignore
+
+# Exclude documentation and other non-essential files
+README.md
+*.md
+
